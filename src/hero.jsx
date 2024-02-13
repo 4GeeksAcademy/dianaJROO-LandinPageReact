@@ -7,7 +7,7 @@ function Hero() {
   return (
 
     <div
-      className="container bg-light rounded p-3">
+      className="container rounded p-3 mb-2 mt-2" style={{background: "#DFDFDF", width: "85.5%"}}>
     
       <Modal.Dialog>
       <Modal.Body>
