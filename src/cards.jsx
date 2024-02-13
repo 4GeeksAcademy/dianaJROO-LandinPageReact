@@ -23,12 +23,12 @@ let Cards = (props) => {
 
 let Carta = () => {
     return <>
-        <div className="container">
+        <div className="container" style={{padding: "0"}}>
             <div className="row row-cols-4 row-cols-md-4 g-4 cards-general">
-                <div className="col-3" style={{paddingLeft: "0"}}><Cards /> </div>
+                <div className="col-3"><Cards /> </div>
                 <div className="col-3"><Cards/> </div>
                 <div className="col-3"><Cards /> </div>
-                <div className="col-3" style={{paddingRight: "0"}}><Cards /> </div>
+                <div className="col-3"><Cards /> </div>
 
 
 
